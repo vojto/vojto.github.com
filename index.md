@@ -1,46 +1,45 @@
 ---
 layout: page
-title: Hello World!
-tagline: Supporting tagline
+title: Pages 
+header: Pages
+group: navigation
 ---
 {% include JB/setup %}
 
-Read [Jekyll Quick Start](http://jekyllbootstrap.com/usage/jekyll-quick-start.html)
+# I am the web mage.
 
-Complete usage and documentation available at: [Jekyll Bootstrap](http://jekyllbootstrap.com)
+I do all kinds of things, but there's one that always keeps my excited. To *amaze* users. Let me show you what I mean.
 
-## Update Author Attributes
+<div class="box"><img src="assets/magic.png" /></div>
 
-In `_config.yml` remember to specify your own data:
-    
-    title : My Blog =)
-    
-    author :
-      name : Name Lastname
-      email : blah@email.test
-      github : username
-      twitter : username
+I'm focused on frontend but I do backend work when needed. This is the tech I use to make magic happen.
 
-The theme should reference these variables whenever needed.
-    
-## Sample Posts
+`Ruby`, `Rails`, `JavaScript/CoffeeScript`, `Node.js`, `HTML5/CSS3`, `Objective-C`, `Cocoa Touch/Desktop`, `SQL`, `NoSQL`, `UI Design`
 
-This blog contains sample posts which help stage pages and blog data.
-When you don't need the samples anymore just delete the `_posts/core-samples` folder.
+# Projects
 
-    $ rm -rf _posts/core-samples
-
-Here's a sample "posts list".
-
-<ul class="posts">
-  {% for post in site.posts %}
-    <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-## To-Do
-
-This theme is still unfinished. If you'd like to be added as a contributor, [please fork](http://github.com/plusjade/jekyll-bootstrap)!
-We need to clean up the themes, make theme usage guides with theme-specific markup examples.
-
-
+<div class="clearfix">
+  <div class="box project">
+    <a href="/edukit"><img src="assets/edukit.png"></a>
+    <h3>Edukit</h3>
+    <p>Share Intel. Edukit turns conversations to knowlege. It has web and mobile application and is super fast!</p>
+  </div>
+  
+  <div class="box project">
+    <a href="/atmos2"><img src="assets/atmos2.png"></a>
+    <h3>Atmos2</h3>
+    <p>Open-source framework for retal-time data synchronization in JavaScript and Cocoa apps.</p>
+  </div>
+  
+  <div class="box project">
+    <a href="/zone"><img src="assets/zone.png"></a>
+    <h3>Zone</h3>
+    <p>Can't focus on work? Zone will help you. It also provides nice reports so you could see when is your most productive time.</p>
+  </div>
+  
+  <div class="box project">
+    <a href="/textdo"><img src="assets/textdo.png"></a>
+    <h3>TextDo</h3>
+    <p>Simple Mac app that lets you write down todos as text documents.</p>
+  </div>
+</div>
